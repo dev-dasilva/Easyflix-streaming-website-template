@@ -15,7 +15,7 @@ header .logo__container {
 header .logo {
   width: 12rem;
   height: 8rem;
-  background-image: url("../images/Logotipo_Minimalista_daSilva2.png");
+  background-image: url("../images/Logotipo_Minimalista_daSilva_bgTransparent.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
