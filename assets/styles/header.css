@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo__container {
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo {
+  width: 12rem;
+  height: 8rem;
+  background-image: url("../images/Logotipo_Minimalista_daSilva_bgTransparent.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .info__demo {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  font-weight: 500;
+  font-size: small;
+}
+
+header .menu {
+  width: 35%;
+}
+
+header .menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header .menu ul li {
+  color: #fff;
+}
+
+header .menu .login__picture {
+  width: 35px;
+  height: 35px;
+  background-color: #333;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-image: url("../images/pngtree-user-login-or-authenticate-icon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
